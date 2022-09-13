@@ -1,0 +1,54 @@
+body {
+	background-color: lightpink;
+	color: black;
+	font-family: "Arial";
+}
+
+h1 {
+	font-size: 20px;
+	text-shadow: 2px 2px white;
+	border-style: dotted;
+	padding: 10px;
+	font-family: "Comic Sans MS";
+}
+
+p {
+	font-size: 15px;
+	color: black;
+}
+
+a {
+	color: red;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+
+a:hover {
+	color: black;
+	cursor: crosshair;
+}
+
+div.box {
+	border: dotted 2px;
+	width: 100px;
+	height: 100px;
+	border-radius: 25px;
+	padding-left: 20px;
+	box-shadow: 5px 5px white;
+}
+
+div.box2 {
+	border: dotted 2px;
+	width: 100px;
+	height: 200px;
+	box-shadow: 5px 5px lightgray;
+}
+
+ol {
+  list-style-type: upper-alpha;
+}
+
+ul {
+  list-style-type: square;
+}
