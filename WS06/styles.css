@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	color: black;
+	font-family: "Verdana";
+	background-color: lightpink;
+	width: 90%;
+	margin: auto;
+}
+
+h1 {
+	color: #264654;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-style: double;
+	padding: 10px;
+}
+
+/*this is for the html validator who couldn't stop crying about missing h1*/
+h1.fake {
+	display: none;
+}
+
+
+h2 {
+	color: #264654;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-style: dotted;
+	padding: 10px;
+	font-size: 15px;
+}
+
+header {
+  background-color: #2a9d8f;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+a:link {
+	color: red;
+	text-decoration-line: none;
+	padding: 10px;
+	font-weight: bold;
+}
+
+a:visited {
+	color: red;
+	text-decoration-line: none;
+}
+
+a:hover {
+	color: #2a9d8f;
+	cursor: crosshair;
+}
+
+nav.topnav {
+  width: 100%;
+  height: auto;
+  background: salmon;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+}
+
+.sidenav {
+	float: left;
+	width: 25%;
+	padding: 20px;
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidenav a {
+	color: navy;
+}
+
+.sidenav a:hover {
+	color: white;
+}
+
+.sidelink {
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	background-color: salmon;
+	margin-bottom: 20px;
+}
+
+article {
+	float: right;
+	background-color: #e9c46a;
+	width: 75%;
+	padding: 20px;
+}
+section{
+	background-color: burlywood;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: #e9c46a;
+}
+
+footer {
+  background-color: #2a9d8f;
+  padding: 20px;
+  text-align: center;
+  color: #264654;
+}
+
+@media (max-width: 600px) {
+  nav, article, .sidenav {
+    width: 100%;
+    height: auto;
+  }
+  
+  body {
+	  width: 100%;
+  }
+}
+
+figure {
+	background-color: white;
+	width: 300px;
+	margin: auto;
+}
+
+figcaption {
+	background-color: #2a9d8f;
+	padding: 10px;
+}
+
+div.progressbar {
+	background: #e9c46a;
+	border-radius: 25px;
+	padding: 20px;
+	width: 300px;
+	border: black 2px;
+	border-style: dashed;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
