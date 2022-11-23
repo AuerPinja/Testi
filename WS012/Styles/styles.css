@@ -9,6 +9,11 @@ body {
 	
 }
 
+.logo {
+	width: 50px;
+	padding-right: 10px;
+}
+
 
 .navbar {
 	position: fixed;
@@ -321,7 +326,19 @@ td {
 	padding: 10px;
 }
 
-.headeralt {
+.header-illust {
+	padding: 10px;
+}
+
+.header-webdesign {
+	padding: 10px;
+}
+
+.header-cv {
+	padding: 10px;
+}
+
+.header-contact {
 	padding: 10px;
 }
 
@@ -330,7 +347,19 @@ td {
 }
 
 .header-illust h1 {
-	font-size: 30px;
+	font-size: 2rem !Important;
+}
+
+.header-webdesign h1 {
+	font-size: 2rem !Important;
+}
+
+.header-cv h1 {
+	font-size: 2rem !Important;
+}
+
+.header-contact h1 {
+	font-size: 2rem !Important;
 }
 
 .content {
