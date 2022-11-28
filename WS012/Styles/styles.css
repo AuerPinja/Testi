@@ -225,6 +225,10 @@ td {
 	margin-top: 100px;
 }
 
+.some-icon {
+	width: 30px;
+}
+
 .footercontent p {
 	color: white;
 }
@@ -320,6 +324,7 @@ td {
 	margin-left: auto;
 	display: block;
 	box-shadow: 10px 10px 10px lightgrey;
+	width: 50%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -403,5 +408,9 @@ td {
 
 .form-cell {
 	display: table;
+}
+
+td {
+	width: 100%;
 }
 }
